@@ -21,6 +21,6 @@ solution. We concluded that more robust tools would be needed for editing the im
 - The timer adds images periodically to simulate a live feed
 
 
-**Demo: **
+**Demo:**
 
-![alt text](https://i.imgur.com/5ArZ85I.gif[/img])
+![alt text](https://media.giphy.com/media/tZMuXoeBsbKjdjC6uU/giphy-downsized-large.gif)
