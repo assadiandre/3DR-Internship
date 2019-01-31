@@ -13,11 +13,11 @@ solution. We concluded that more robust tools would be needed for editing the im
 
 - Images paths are loaded from a folder
 - An OrthoImageBuilder class is initialized with a certain amount of images
-  ° OrthoImage objects are created as a result. These objects take the location, rotation, and image data from the path.
-  ° The OrthoImageBuilder checks if the images are in proper rotation, if not it does not add them to the allData array, which is a public variable of the class.
-  ° There is a cap that defines how many images are loaded before they can actually be added to create an image
-  ° This cap is used for finding the GPS to Image point ratio before images are merged
-  ° Once over images are added as usual
+- OrthoImage objects are created as a result. These objects take the location, rotation, and image data from the path.
+- The OrthoImageBuilder checks if the images are in proper rotation, if not it does not add them to the allData array, which is a public variable of the class.
+- There is a cap that defines how many images are loaded before they can actually be added to create an image
+- This cap is used for finding the GPS to Image point ratio before images are merged
+- Once over images are added as usual
 - The timer adds images periodically to simulate a live feed
 
 
