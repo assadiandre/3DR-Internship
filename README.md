@@ -1,13 +1,8 @@
 # 3DR-Internship
-Work Done at 3DR over two months
 
 **About:**
 
-This was a low-resolution stitching algorithm developed over the course of 2 1/2 months at 3DR in Berkeley. The project was 
-meant to act similar to DroneDeploy's live map feature. Essentially the drone would fly over a given area and from the live
-video stream we would take images which would be processed and stitched together using Computer Vision algorithms. I experimented with many techniques of aligning the images, mostly using native iOS libraries. While this project worked quite 
-well there were some issues with Memory usage/ CPU usage and Apple's intergration of OpenCV in Swift turned out not to be the 
-solution. We concluded that more robust tools would be needed for editing the images themselves using Homography/ Perspective Warping rather than basic affine translations. This is all my work over those couple months. 
+This was a low-resolution stitching algorithm developed over the course of 2 1/2 months at 3DR in Berkeley. The project was meant to act similar to DroneDeploy's live map feature. Essentially, the drone would fly over a given area and from the live video stream we would take images which would be processed and stitched together using computer vision algorithms. I experimented with many techniques of aligning the images, mostly using native iOS libraries. While this project worked quite well there were some issues with Memory usage/ CPU usage and Apple's integration of OpenCV in Swift turned out not to be the solution. We concluded that more robust tools would be needed for editing the images themselves using Homography/ Perspective Warping rather than basic affine translations. This is all my work over those couple months.
 
 **How it works (OrthoMap):**
 
